@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>blynk-server</Name>
+  <Repository>mpherg/blynk-server:latest</Repository>
+  <Registry>https://hub.docker.com/r/mpherg/blynk-server/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category>HomeAutomation: Tools:</Category>
+  <WebUI>https://[IP]:[PORT:9443]/admin</WebUI>
+  <TemplateURL/>
+  <Icon>https://lh3.googleusercontent.com/rTRWfl713otPTrmafsJ3OLb7I30XS1iBSZyP1WXYXKAlwkTMhihdMw_gDv5ogjEtQ1P6</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1588965452</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>9443</HostPort>
+        <ContainerPort>9443</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8440</HostPort>
+        <ContainerPort>8440</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/blynk-server/data</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/blynk-server/config/</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Host Path 1" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/blynk-server/data</Config>
+  <Config Name="Host Port 1" Target="8080" Default="" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
+  <Config Name="Host Port 2" Target="9443" Default="" Mode="tcp" Description="Container Port: 9443" Type="Port" Display="always" Required="false" Mask="false">9443</Config>
+  <Config Name="Host Port 3" Target="8440" Default="" Mode="tcp" Description="Container Port: 8440" Type="Port" Display="always" Required="false" Mask="false">8440</Config>
+  <Config Name="Host Path 2" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/blynk-server/config/</Config>
+</Container>
