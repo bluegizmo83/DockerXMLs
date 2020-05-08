@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://community.blynk.cc/</Support>
   <Project/>
   <Overview/>
   <Category>HomeAutomation: Tools:</Category>
@@ -17,7 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1588965452</DateInstalled>
+  <DateInstalled>1588965791</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description/>
