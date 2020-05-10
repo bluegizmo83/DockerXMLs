@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://community.blynk.cc/</Support>
   <Project/>
-  <Overview/>
+  <Overview>Template to setup a Blynk server on Unraid</Overview>
   <Category>HomeAutomation: Tools:</Category>
   <WebUI>https://[IP]:[PORT:9443]/admin</WebUI>
   <TemplateURL/>
