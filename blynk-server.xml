@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://community.blynk.cc/</Support>
   <Project/>
-  <Overview>Template to setup a Blynk server on Unraid</Overview>
+  <Overview>
   <Category>HomeAutomation: Tools:</Category>
   <WebUI>https://[IP]:[PORT:9443]/admin</WebUI>
   <TemplateURL/>
@@ -20,7 +20,7 @@
   <DateInstalled>1588965791</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description/>
+  <Description>Template to setup a Blynk server on Unraid</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
